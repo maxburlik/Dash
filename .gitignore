@@ -1,2 +1,14 @@
 Engine/Engine/adapterinfo.txt
 Engine/Engine/shader-error.txt
+Engine/Engine/Debug/textureshaderclass.obj
+Engine/Engine/Debug/textureclass.obj
+Engine/Engine/Debug/modelclass.obj
+Engine/Engine/Debug/systemclass.obj
+Engine/Engine/Debug/d3dclass.obj
+Engine/Engine/Debug/colorshaderclass.obj
+Engine/Engine/Debug/cameraclass.obj
+Engine/Engine/Debug/graphicsclass.obj
+Engine/Engine/Debug/inputclass.obj
+Engine/Engine/Debug/main.obj
+Engine/Debug/Engine.exe
+Engine/Debug/Engine.pdb

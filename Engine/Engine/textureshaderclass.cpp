@@ -210,13 +210,10 @@ bool TextureShaderClass::InitializeShader(ID3D11Device* device, HWND hwnd, WCHAR
 
     return true;
 }
-The ShutdownShader function releases all the variables used in the TextureShaderClass.
 
 void TextureShaderClass::ShutdownShader()
 {
-    The ShutdownShader function now releases the new sampler state that was created during initialization.
-
-        // Release the sampler state.
+    // Release the sampler state.
     if (m_sampleState)
     {
         m_sampleState->Release();
@@ -253,7 +250,6 @@ void TextureShaderClass::ShutdownShader()
 
     return;
 }
-OutputShaderErrorMessage writes out errors to a text file if the HLSL shader could not be loaded.
 
 void TextureShaderClass::OutputShaderErrorMessage(ID3D10Blob* errorMessage, HWND hwnd, WCHAR* shaderFilename)
 {
@@ -289,7 +285,6 @@ void TextureShaderClass::OutputShaderErrorMessage(ID3D10Blob* errorMessage, HWND
 
     return;
 }
-SetShaderParameters function now takes in a pointer to a texture resource and then assigns it to the shader using the new texture resource pointer.Note that the texture has to be set before rendering of the buffer occurs.
 
 bool TextureShaderClass::SetShaderParameters(ID3D11DeviceContext* deviceContext, D3DXMATRIX worldMatrix, D3DXMATRIX viewMatrix,
 D3DXMATRIX projectionMatrix, ID3D11ShaderResourceView* texture)
@@ -328,14 +323,12 @@ D3DXMATRIX projectionMatrix, ID3D11ShaderResourceView* texture)
 
     // Now set the constant buffer in the vertex shader with the updated values.
     deviceContext->VSSetConstantBuffers(bufferNumber, 1, &m_matrixBuffer);
-    The SetShaderParameters function has been modified from the previous tutorial to include setting the texture in the pixel shader now.
 
-        // Set shader texture resource in the pixel shader.
-        deviceContext->PSSetShaderResources(0, 1, &texture);
+    // Set shader texture resource in the pixel shader.
+    deviceContext->PSSetShaderResources(0, 1, &texture);
 
     return true;
 }
-RenderShader calls the shader technique to render the polygons.
 
 void TextureShaderClass::RenderShader(ID3D11DeviceContext* deviceContext, int indexCount)
 {
@@ -345,10 +338,9 @@ void TextureShaderClass::RenderShader(ID3D11DeviceContext* deviceContext, int in
     // Set the vertex and pixel shaders that will be used to render this triangle.
     deviceContext->VSSetShader(m_vertexShader, NULL, 0);
     deviceContext->PSSetShader(m_pixelShader, NULL, 0);
-    The RenderShader function has been changed to include setting the sample state in the pixel shader before rendering.
 
-        // Set the sampler state in the pixel shader.
-        deviceContext->PSSetSamplers(0, 1, &m_sampleState);
+    // Set the sampler state in the pixel shader.
+    deviceContext->PSSetSamplers(0, 1, &m_sampleState);
 
     // Render the triangle.
     deviceContext->DrawIndexed(indexCount, 0, 0);
