@@ -29,4 +29,12 @@ Engine/Debug/Engine.ilk
 Engine/Engine/Debug/Engine.log
 *.suo
 Engine/Engine/Debug/Engine.Build.CppClean.log
+Engine/Engine.sdf
 Engine/Engine/Debug/Engine.log
+Engine/Engine/Debug/Engine.tlog/rc.command.1.tlog
+Engine/Engine/Debug/Engine.tlog/rc.read.1.tlog
+Engine/Engine/Debug/Engine.tlog/rc.write.1.tlog
+Engine/Engine/Debug/Engine.log
+*.log
+*.sdf
+*.log
