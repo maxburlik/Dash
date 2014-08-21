@@ -284,14 +284,14 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT umessage, WPARAM wparam, LPARAM lparam)
         // Check if the window is being destroyed.
     case WM_DESTROY:
     {
-                       PostQuitMessage(0);
+                       PostQuitMessage(0); 
                        return 0;
     }
 
         // Check if the window is being closed.
     case WM_CLOSE:
     {
-                     PostQuitMessage(0);
+                     PostQuitMessage(0); 
                      return 0;
     }
 
