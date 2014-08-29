@@ -1,0 +1,1 @@
+sqlcmd -S VAIOZ1190\SQLEXPRESS -i "db-close.sql"

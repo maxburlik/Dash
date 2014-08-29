@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CMPT470-1107-group4/!svn/ver/204/FinalProject/ApplicationCode/SMS/Models/ViewModels
+END
+RoleView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1107-group4/!svn/ver/44/FinalProject/ApplicationCode/SMS/Models/ViewModels/RoleView.cs
+END
+RegistrarView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/CMPT470-1107-group4/!svn/ver/93/FinalProject/ApplicationCode/SMS/Models/ViewModels/RegistrarView.cs
+END
+RegisterView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/CMPT470-1107-group4/!svn/ver/132/FinalProject/ApplicationCode/SMS/Models/ViewModels/RegisterView.cs
+END
+TeamView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CMPT470-1107-group4/!svn/ver/159/FinalProject/ApplicationCode/SMS/Models/ViewModels/TeamView.cs
+END
+ChangePasswordView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1107-group4/!svn/ver/60/FinalProject/ApplicationCode/SMS/Models/ViewModels/ChangePasswordView.cs
+END
+RegisterOrganizationView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMPT470-1107-group4/!svn/ver/83/FinalProject/ApplicationCode/SMS/Models/ViewModels/RegisterOrganizationView.cs
+END
+ThirdPartyView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CMPT470-1107-group4/!svn/ver/204/FinalProject/ApplicationCode/SMS/Models/ViewModels/ThirdPartyView.cs
+END
+AuthorizationCodeView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1107-group4/!svn/ver/70/FinalProject/ApplicationCode/SMS/Models/ViewModels/AuthorizationCodeView.cs
+END
+UserAccountView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CMPT470-1107-group4/!svn/ver/60/FinalProject/ApplicationCode/SMS/Models/ViewModels/UserAccountView.cs
+END
+TournamentView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CMPT470-1107-group4/!svn/ver/189/FinalProject/ApplicationCode/SMS/Models/ViewModels/TournamentView.cs
+END
+CoachView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CMPT470-1107-group4/!svn/ver/136/FinalProject/ApplicationCode/SMS/Models/ViewModels/CoachView.cs
+END
+LogonView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CMPT470-1107-group4/!svn/ver/68/FinalProject/ApplicationCode/SMS/Models/ViewModels/LogonView.cs
+END

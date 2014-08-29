@@ -1,0 +1,291 @@
+
+a {
+	color: Black;
+	
+}
+ a:hover {color: Gray;}
+
+body {
+	font-family:Verdana,Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color: #80AECE;/*#71834D;*/
+   
+}
+
+hr
+{
+    border: 1px solid gainsboro;
+}
+
+
+h1{
+	
+	color: #000000;
+    Font: normal 22px  "Lucida Sans Unicode",sans-serif;
+   
+}
+
+#wrapper 
+{
+    background: White;
+    width: 90%;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top : -10px;
+	
+	border: 0px solid #c4c8cc;
+    -moz-box-shadow: 0px 0px 20px #005E9E;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-box-shadow: 0px 0px 20px #005E9E;
+    -webkit-border-bottom-right-radius: 10px;
+
+}
+
+#header {
+    background: White;/*#344E00 ;*/
+	color: white;
+	text-align: center;
+}
+#StatusMessage
+{
+    color: #0261A1;
+    font-size:large; 
+}
+#main_navigation {
+
+	    height: auto;
+        background: #0261A1;/*#4B7000;*/
+        height: 46px; 
+        font-size: 16px;
+}
+  
+   
+#main {
+        width:100%;
+		background-color: White;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -8px; 
+		height: 100%;  
+		padding-bottom: 50px; 
+}
+
+.pageContent,
+#pageContent
+{
+    padding-left: 20px;   
+    padding-right: 20px;
+}
+
+.field-validation-error
+{
+    color: Red;    
+}
+.validation-summary-errors
+{
+   color: Red;
+}
+
+.active { background-color: Black; }
+       
+/* Main User Navigation*/
+
+    #main_navigation #tabs {
+      float:left;
+      width:100%;
+      font-size:93%;
+      line-height:normal;
+      }
+    #main_navigation #tabs ul {
+          margin:0;
+          padding:10px 10px 0 50px;
+          list-style:none;
+      }
+    #main_navigation #tabs li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #main_navigation #tabs a {
+      float:left;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #main_navigation #tabs a span {
+      float:left;
+      display:block;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      }
+    #main_navigation #tabs a span {float:none;}
+    
+    #main_navigation #tabs a:hover span {
+      color:#FFF;
+      }
+    #main_navigation #tabs a:hover {
+      background-position:0% -42px;
+      }
+    #main_navigation #tabs a:hover span {
+      background-position:100% -42px;
+      }
+
+      #main_navigation #tabs #currentPage a {
+              background-position:0% -42px;
+              background-color: #004471;/*#344E00;*/
+              font-weight: bold;
+      }
+      #main_navigation #tabs #currentPage a span {
+              background-position:100% -42px;
+      }
+      
+      
+/* Logged-In User Navigation*/
+#loggedin_user_navigation {
+
+	    height: auto;
+        font-size: 12px;
+        border-bottom: 0px solid gainsboro;
+        text-align: right;
+        padding: 10px;
+}
+
+#loggedin_user_navigation a {
+        color: Black;
+        height: 50px;
+}
+
+      #loggedin_user_navigation #currentPage {
+              background-color: #004471;/*#344E00;*/
+              font-weight: bold;
+              color: White;
+              text-decoration:none;
+              
+              height: 50px;
+              padding: 10px;
+      }
+      
+ 
+ /* hide the content*/
+ .hide {
+     display: none;
+ }
+
+#assigned_player_applications,
+#unassigned_player_applications
+{
+    background-color: transparent;
+    border-top-width:thin;
+    padding: 0 0 0 0;
+
+}
+
+ #show_create_form,
+ #tournament_create_form,
+ #existing_tournaments
+ {
+     margin-left: 50px;
+     margin-right: 50px;
+ }
+
+#new_team_applications,
+#approved_team_applications,
+#denied_team_applications
+{
+    margin-left: -20px
+}
+
+#match_table,
+#new_team_applications_table,
+#approved_team_applications_table,
+#denied_team_applications_table,
+ #assigned_player_applications_table,
+ #unassigned_player_applications_table,
+ #tournament_create_table,
+ #existing_tournament_table, #ExistingRolesTable
+  {
+     width: 100%;
+     border-spacing:0;
+         background-color: White;
+ }
+
+
+     #tournament_create_table th,
+     #existing_tournament_table th
+      {
+         height: 50px;
+         background-color: White;
+     }
+     #match_table th,
+ #new_team_applications_table th,
+#approved_team_applications_table th,
+#denied_team_applications_table th,
+      #assigned_player_applications_table th,
+     #unassigned_player_applications_table th
+     {
+         height:30px;
+         background-color: White;
+     }
+ 
+     #match_table td,
+ #new_team_applications_table td,
+#approved_team_applications_table td,
+#denied_team_applications_table td,
+     #assigned_player_applications_table td,
+     #unassigned_player_applications_table td,
+     #tournament_create_table td,
+     #existing_tournament_table td
+      {
+          text-align: center;
+          height:23px;
+          background-color: White;
+          
+     }
+  
+  #TournamentInfo,
+  #Tournament_TournamentInfo
+  {
+      width:95%;
+      height:80px;
+
+  }
+  
+  #tournamentSubmit
+  {
+      float:right;
+      margin-top:10px;
+      margin-right:130px;
+  }
+  
+  #team_app_tournament_dropdown
+  {
+      margin-left: 30px;
+  }
+  
+ .left_justify 
+ {
+     text-align: left;
+ }
+ 
+ .clear {
+	clear: both;
+	line-height: 0;
+}
+
+#ExistingRolesTable tr td, #EventsTable tr td, #ExistingUsersTable tr td, #ExistingEventsTable tr td
+{
+    background-color: White;
+
+}
+
+.HighlightError
+{
+    border: 1px solid red;
+}
+.UnHighlightError
+{
+    border: 1px solid Gray;
+}
+
+
+ 

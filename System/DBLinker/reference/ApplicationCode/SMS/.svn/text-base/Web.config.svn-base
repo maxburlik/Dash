@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=152368
+  -->
+<configuration>
+  <appSettings>
+    <add key="HostingOrganizationID" value="6A202BE4-CC1A-410F-9CB5-FC26E9464791"/>
+  </appSettings>
+  <connectionStrings>
+    <add name="DBConnectionString"
+         connectionString="data source=localhost;Integrated Security=SSPI;Initial Catalog=phoenix"
+         providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <system.web>
+    <compilation debug="true" targetFramework="4.0">
+      <assemblies>
+        <add assembly="System.Web.Abstractions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" />
+        <add assembly="System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" />
+        <add assembly="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" />
+      </assemblies>
+     
+    </compilation>
+
+    <membership>
+      <providers>
+        <clear/>
+        <add name="AspNetSqlMembershipProvider" type="System.Web.Security.SqlMembershipProvider" connectionStringName="DBConnectionString"
+             enablePasswordRetrieval="false" passwordFormat="Hashed" enablePasswordReset="true" requiresQuestionAndAnswer="false" requiresUniqueEmail="false"
+             maxInvalidPasswordAttempts="5" minRequiredPasswordLength="1" minRequiredNonalphanumericCharacters="0" passwordAttemptWindow="10"
+             applicationName="Phoenix" />
+      </providers>
+    </membership>
+
+    <profile>
+      <providers>
+        <clear/>
+        <add name="AspNetSqlProfileProvider" type="System.Web.Profile.SqlProfileProvider" connectionStringName="DBConnectionString" applicationName="Phoenix" />
+      </providers>
+    </profile>
+
+    <roleManager enabled="true">
+      <providers>
+        <clear />
+        <add connectionStringName="DBConnectionString" applicationName="Phoenix"
+          name="AspNetSqlRoleProvider" type="System.Web.Security.SqlRoleProvider" />
+        <add applicationName="/" name="AspNetWindowsTokenRoleProvider"
+          type="System.Web.Security.WindowsTokenRoleProvider" />
+      </providers>
+    </roleManager>
+
+    <authentication mode="Forms">
+      <forms loginUrl="~/UserAccount/LogOn" timeout="2880" />
+    </authentication>
+
+    <pages>
+      <namespaces>
+        <add namespace="System.Web.Mvc" />
+        <add namespace="System.Web.Mvc.Ajax" />
+        <add namespace="System.Web.Mvc.Html" />
+        <add namespace="System.Web.Routing" />
+        <add namespace="SMS.Views.Shared" />
+      </namespaces>
+    </pages>
+
+    <httpRuntime requestValidationMode="2.0"/>
+  </system.web>
+
+  <system.webServer>
+    <validation validateIntegratedModeConfiguration="false"/>
+    <modules runAllManagedModulesForAllRequests="true"/>
+  </system.webServer>
+
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Mvc" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0" newVersion="2.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+
+  <system.net>
+    <mailSettings>
+      <smtp from="info@phoenixfc.ca">
+        <network host="smtp.sfu.ca"/>
+      </smtp>
+    </mailSettings>
+  </system.net>
+
+  
+</configuration>
+

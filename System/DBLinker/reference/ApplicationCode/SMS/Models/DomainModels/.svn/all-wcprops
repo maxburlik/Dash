@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CMPT470-1107-group4/!svn/ver/265/FinalProject/ApplicationCode/SMS/Models/DomainModels
+END
+UserAccount.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/CMPT470-1107-group4/!svn/ver/60/FinalProject/ApplicationCode/SMS/Models/DomainModels/UserAccount.cs
+END
+Tournament.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/CMPT470-1107-group4/!svn/ver/137/FinalProject/ApplicationCode/SMS/Models/DomainModels/Tournament.cs
+END
+Match.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1107-group4/!svn/ver/265/FinalProject/ApplicationCode/SMS/Models/DomainModels/Match.cs
+END
+Coach.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1107-group4/!svn/ver/105/FinalProject/ApplicationCode/SMS/Models/DomainModels/Coach.cs
+END
+PlayerApplication.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/CMPT470-1107-group4/!svn/ver/244/FinalProject/ApplicationCode/SMS/Models/DomainModels/PlayerApplication.cs
+END
+Role.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/CMPT470-1107-group4/!svn/ver/48/FinalProject/ApplicationCode/SMS/Models/DomainModels/Role.cs
+END
+Event.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1107-group4/!svn/ver/159/FinalProject/ApplicationCode/SMS/Models/DomainModels/Event.cs
+END
+Organization.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CMPT470-1107-group4/!svn/ver/132/FinalProject/ApplicationCode/SMS/Models/DomainModels/Organization.cs
+END
+Address.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CMPT470-1107-group4/!svn/ver/65/FinalProject/ApplicationCode/SMS/Models/DomainModels/Address.cs
+END
+Person.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1107-group4/!svn/ver/60/FinalProject/ApplicationCode/SMS/Models/DomainModels/Person.cs
+END
+Team.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/CMPT470-1107-group4/!svn/ver/96/FinalProject/ApplicationCode/SMS/Models/DomainModels/Team.cs
+END
+TeamApplication.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1107-group4/!svn/ver/189/FinalProject/ApplicationCode/SMS/Models/DomainModels/TeamApplication.cs
+END

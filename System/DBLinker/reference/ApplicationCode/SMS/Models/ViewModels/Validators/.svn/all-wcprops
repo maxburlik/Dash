@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1107-group4/!svn/ver/136/FinalProject/ApplicationCode/SMS/Models/ViewModels/Validators
+END
+PropertiesMustMatchAttributecs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/CMPT470-1107-group4/!svn/ver/60/FinalProject/ApplicationCode/SMS/Models/ViewModels/Validators/PropertiesMustMatchAttributecs.cs
+END
+BoolTypeValidator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/CMPT470-1107-group4/!svn/ver/136/FinalProject/ApplicationCode/SMS/Models/ViewModels/Validators/BoolTypeValidator.cs
+END
+ValidateOnlyIncomingValuesAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/CMPT470-1107-group4/!svn/ver/60/FinalProject/ApplicationCode/SMS/Models/ViewModels/Validators/ValidateOnlyIncomingValuesAttribute.cs
+END
