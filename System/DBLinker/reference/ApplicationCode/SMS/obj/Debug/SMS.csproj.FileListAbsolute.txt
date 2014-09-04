@@ -1,0 +1,5 @@
+C:\Max's Files\SFU\CMPT470\SVN\FinalProject\ApplicationCode\SMS\bin\SMS.dll
+C:\Max's Files\SFU\CMPT470\SVN\FinalProject\ApplicationCode\SMS\bin\SMS.pdb
+C:\Max's Files\SFU\CMPT470\SVN\FinalProject\ApplicationCode\SMS\obj\Debug\ResolveAssemblyReference.cache
+C:\Max's Files\SFU\CMPT470\SVN\FinalProject\ApplicationCode\SMS\obj\Debug\SMS.dll
+C:\Max's Files\SFU\CMPT470\SVN\FinalProject\ApplicationCode\SMS\obj\Debug\SMS.pdb

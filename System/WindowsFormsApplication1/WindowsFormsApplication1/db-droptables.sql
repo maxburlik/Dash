@@ -1,0 +1,1 @@
+DROP TABLE TestDB.[dbo].[FileContents]

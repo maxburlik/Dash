@@ -1,0 +1,1 @@
+sqlcmd -S (local) -i "db-test_data.sql"

@@ -103,11 +103,6 @@
     <Text Include="data\cube.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Engine.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="data\seafloor.dds" />
   </ItemGroup>
 </Project>

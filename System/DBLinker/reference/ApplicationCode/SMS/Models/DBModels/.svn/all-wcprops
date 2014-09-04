@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CMPT470-1107-group4/!svn/ver/245/FinalProject/ApplicationCode/SMS/Models/DBModels
+END
+ThirdPartyAccessRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/CMPT470-1107-group4/!svn/ver/186/FinalProject/ApplicationCode/SMS/Models/DBModels/ThirdPartyAccessRepository.cs
+END
+TournamentAccessRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/CMPT470-1107-group4/!svn/ver/221/FinalProject/ApplicationCode/SMS/Models/DBModels/TournamentAccessRepository.cs
+END
+CoachAccessRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/CMPT470-1107-group4/!svn/ver/218/FinalProject/ApplicationCode/SMS/Models/DBModels/CoachAccessRepository.cs
+END
+UserAccessRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMPT470-1107-group4/!svn/ver/245/FinalProject/ApplicationCode/SMS/Models/DBModels/UserAccessRepository.cs
+END
+RegistrarAccessRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMPT470-1107-group4/!svn/ver/244/FinalProject/ApplicationCode/SMS/Models/DBModels/RegistrarAccessRepository.cs
+END
+RegisterAccessRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMPT470-1107-group4/!svn/ver/244/FinalProject/ApplicationCode/SMS/Models/DBModels/RegisterAccessRepository.cs
+END

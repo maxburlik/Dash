@@ -1,0 +1,1 @@
+http://blog.jamesrossiter.co.uk/2011/01/26/connecting-to-sql-server-from-c/

@@ -50,7 +50,7 @@ void InputClass::KeyUp(unsigned int input)
 }
 
 
-bool InputClass::IsKeyDown(unsigned int key)
+bool InputClass::IsKeyDown(unsigned int key) const
 {
     // Return what state the key is in (pressed/not pressed).
     return m_keys[key];

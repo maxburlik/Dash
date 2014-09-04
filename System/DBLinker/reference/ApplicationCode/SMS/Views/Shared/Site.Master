@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SMS.Views.Shared.Site" %>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head runat="server">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" /> 
+    <title>Phoenix FC</title>
+    <link href="<%: Url.Content("~/Content/master.css") %>" rel="stylesheet" type="text/css" />
+    <script src="<%: Url.Content("~/Scripts/jquery-1.4.1.min.js") %>" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#currentPage").addClass("currentPage");
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="JavascriptContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+        <div style="background-color: White; height: 160px; text-align: center; border: 1px solid gainsboro;"><img alt="Logo" src="<%: Url.Content("~/Content/balls-left.jpg") %>" /> <img alt="Logo" src="<%: Url.Content("~/Content/phoenixFC_final.jpg") %>" /><img alt="Logo" src="<%: Url.Content("~/Content/balls-right.jpg") %>" /><br /><br /></div>
+            <asp:ContentPlaceHolder ID="HeadContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="main_navigation">
+        
+            <div id="tabs">
+                <ul>
+                    <!-- CSS Tabs -->
+                    <li id = "Home"><a href="<%: Url.Content("~/Home/Index") %>"><span>Home</span></a></li>
+                    <li id="Teams"><a href="<%: Url.Content("~/Teams/All") %>"><span>Teams</span></a></li>
+                    <li id="Tournaments"><a href="<%: Url.Content("~/Tournament/All") %>""><span>Tournaments</span></a></li>
+                    <li id="Register">
+                    <a href="<%: Url.Content("~/Register/Index") %>"><span>Register</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/CMPT470-1107-group4/!svn/ver/229/FinalProject/ApplicationCode/SMS/Views/UserAccount
+END
+Edit.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CMPT470-1107-group4/!svn/ver/216/FinalProject/ApplicationCode/SMS/Views/UserAccount/Edit.aspx
+END
+ChangePassword.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CMPT470-1107-group4/!svn/ver/211/FinalProject/ApplicationCode/SMS/Views/UserAccount/ChangePassword.aspx
+END
+Home.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CMPT470-1107-group4/!svn/ver/144/FinalProject/ApplicationCode/SMS/Views/UserAccount/Home.aspx
+END
+Logon.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1107-group4/!svn/ver/144/FinalProject/ApplicationCode/SMS/Views/UserAccount/Logon.aspx
+END
+Delete.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/CMPT470-1107-group4/!svn/ver/92/FinalProject/ApplicationCode/SMS/Views/UserAccount/Delete.aspx
+END
+Create.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/CMPT470-1107-group4/!svn/ver/229/FinalProject/ApplicationCode/SMS/Views/UserAccount/Create.aspx
+END
+CreateTest.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/CMPT470-1107-group4/!svn/ver/60/FinalProject/ApplicationCode/SMS/Views/UserAccount/CreateTest.aspx
+END

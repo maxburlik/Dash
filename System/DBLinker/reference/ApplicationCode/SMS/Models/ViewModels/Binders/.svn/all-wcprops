@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/CMPT470-1107-group4/!svn/ver/198/FinalProject/ApplicationCode/SMS/Models/ViewModels/Binders
+END
+TournamentPlanningMatchViewModelBinder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/CMPT470-1107-group4/!svn/ver/198/FinalProject/ApplicationCode/SMS/Models/ViewModels/Binders/TournamentPlanningMatchViewModelBinder.cs
+END
+RoleViewModelBinder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/CMPT470-1107-group4/!svn/ver/44/FinalProject/ApplicationCode/SMS/Models/ViewModels/Binders/RoleViewModelBinder.cs
+END
+CoachManageTeamEventsViewModelBinder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/CMPT470-1107-group4/!svn/ver/136/FinalProject/ApplicationCode/SMS/Models/ViewModels/Binders/CoachManageTeamEventsViewModelBinder.cs
+END
